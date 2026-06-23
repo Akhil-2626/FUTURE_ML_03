@@ -384,7 +384,8 @@ def export_results(ranking: pd.DataFrame, output_csv: str = "screening_results.c
 # SECTION 12 - MAIN ENTRY POINT
 
 if __name__ == "__main__":
-    CSV_PATH = r"C:/Users/bhara/OneDrive/Desktop/akhil/monster_com-job_sample.csv"
+    #Add csv file path here
+    CSV_PATH = 
 
     jobs = pd.read_csv(CSV_PATH, encoding="latin1")
     jobs = jobs[["job_title", "job_description"]].dropna().reset_index(drop=True)
